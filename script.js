@@ -20,20 +20,22 @@ function compareValues(sum,luckyNumber){
     }
    }
 
-
-
-
-
-function checkbirthdayIsLucky(){
-    var dob = dateOfBirth.value;
-    var sum = calculateSum(dob);
-    if(sum&&dob)
-    compareValues(sum,luckyNumber.value)
-    else{
-        outputDiv.innerText="Please enter both the fields"
-    }
-}
-
+   function checkbirthdayIsLucky()
+   {
+       var dob = dateOfBirth.value;
+   
+       var sum = calculateSum(dob);
+   
+       if(sum&&dob)
+   
+       compareValues(sum,luckyNumber.value)
+       else
+       {
+         
+           outputBox.innerText="Please enter both the fields "
+       }
+   }
+   
 
 function calculateSum(dob){
   dob = dob.replaceAll("-","");
