@@ -16,7 +16,7 @@ function compareValues(sum,luckyNumber){
     if(sum%luckyNumber===0){
         outputDiv.innerText=("Your birthday is lucky 😊")
     }else{
-        outputDiv.innerText=("Your birthday is not lucky 😂")
+        outputDiv.innerText=("Your birthday is not lucky 🙁")
     }
    }
 
