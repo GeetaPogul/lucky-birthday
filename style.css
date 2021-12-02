@@ -88,3 +88,25 @@ label{
 {
     color: #40B5AD;
 }
+
+
+
+.link{
+    text-decoration: none;
+    padding: 0rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+} 
+  
+.link-secondary{
+    
+    
+  
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color: #40B5AD;
+   margin-left: 39rem;
+   margin-top: 25rem;
+    padding: 0.5rem;
+    border: 1px solid #40B5AD;
+}
